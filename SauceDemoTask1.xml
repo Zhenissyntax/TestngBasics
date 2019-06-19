@@ -1,0 +1,13 @@
+<suit name="group">
+<test name="test">
+<groups>
+<run>
+<include name="Smoke"/>
+<include name="Regression"/>
+</run>
+</groups>
+<classes>
+<class name= "com.class03.SauceDemoTask1"/>
+</classes>
+</test>
+</suit>

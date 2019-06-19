@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="FireFoxTest(failed)">
+    <parameter name="password" value="test"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="http://secure.smartbearsoftware.com/samples/TestComplete11/WebOrders/Login.aspx"/>
+    <parameter name="username" value="Tester"/>
+    <classes>
+      <class name="com.class05.TaskOneDataProvider">
+        <methods>
+          <include name="testUsers"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.class05.TaskOneDataProvider -->
+    </classes>
+  </test> <!-- FireFoxTest(failed) -->
+  <test thread-count="5" parallel="tests" name="ChromeTest(failed)">
+    <parameter name="password" value="test"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://secure.smartbearsoftware.com/samples/TestComplete11/WebOrders/Login.aspx"/>
+    <parameter name="username" value="Tester"/>
+    <classes>
+      <class name="com.class05.TaskOneDataProvider">
+        <methods>
+          <include name="testUsers"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.class05.TaskOneDataProvider -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

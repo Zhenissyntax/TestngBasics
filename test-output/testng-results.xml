@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="0" failed="0" skipped="4">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-06-12T01:52:14Z" name="Suite" finished-at="2019-06-12T01:52:14Z" duration-ms="71">
+    <groups>
+    </groups>
+    <test started-at="2019-06-12T01:52:14Z" name="FireFoxTest" finished-at="2019-06-12T01:52:14Z" duration-ms="67">
+      <class name="com.class05.TaskOneDataProvider">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class05.TaskOneDataProvider@3571b748]" started-at="2019-06-12T01:52:14Z" name="setUp" finished-at="2019-06-12T01:52:14Z" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method setUp requires 4 parameters but 3 were supplied in the BeforeClass annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method setUp requires 4 parameters but 3 were supplied in the BeforeClass annotation.
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:415)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.base/java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUsers(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class05.TaskOneDataProvider@3571b748]" started-at="2019-06-12T01:52:14Z" name="testUsers" data-provider="setOfData" finished-at="2019-06-12T01:52:14Z" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method setUp requires 4 parameters but 3 were supplied in the BeforeClass annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method setUp requires 4 parameters but 3 were supplied in the BeforeClass annotation.
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:415)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.base/java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUsers -->
+        <test-method signature="testUsers(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class05.TaskOneDataProvider@3571b748]" started-at="2019-06-12T01:52:14Z" name="testUsers" data-provider="setOfData" finished-at="2019-06-12T01:52:14Z" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method setUp requires 4 parameters but 3 were supplied in the BeforeClass annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method setUp requires 4 parameters but 3 were supplied in the BeforeClass annotation.
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:415)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.base/java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.class05.TaskOneDataProvider@3571b748]" started-at="2019-06-12T01:52:14Z" name="tearDown" finished-at="2019-06-12T01:52:14Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.class05.TaskOneDataProvider -->
+    </test> <!-- FireFoxTest -->
+    <test started-at="2019-06-12T01:52:14Z" name="ChromeTest" finished-at="2019-06-12T01:52:14Z" duration-ms="71">
+      <class name="com.class05.TaskOneDataProvider">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class05.TaskOneDataProvider@38e79ae3]" started-at="2019-06-12T01:52:14Z" name="setUp" finished-at="2019-06-12T01:52:14Z" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method setUp requires 4 parameters but 3 were supplied in the BeforeClass annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method setUp requires 4 parameters but 3 were supplied in the BeforeClass annotation.
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:415)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.base/java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUsers(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class05.TaskOneDataProvider@38e79ae3]" started-at="2019-06-12T01:52:14Z" name="testUsers" data-provider="setOfData" finished-at="2019-06-12T01:52:14Z" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method setUp requires 4 parameters but 3 were supplied in the BeforeClass annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method setUp requires 4 parameters but 3 were supplied in the BeforeClass annotation.
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:415)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.base/java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUsers -->
+        <test-method signature="testUsers(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class05.TaskOneDataProvider@38e79ae3]" started-at="2019-06-12T01:52:14Z" name="testUsers" data-provider="setOfData" finished-at="2019-06-12T01:52:14Z" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method setUp requires 4 parameters but 3 were supplied in the BeforeClass annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method setUp requires 4 parameters but 3 were supplied in the BeforeClass annotation.
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:415)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.base/java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.class05.TaskOneDataProvider@38e79ae3]" started-at="2019-06-12T01:52:14Z" name="tearDown" finished-at="2019-06-12T01:52:14Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.class05.TaskOneDataProvider -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
